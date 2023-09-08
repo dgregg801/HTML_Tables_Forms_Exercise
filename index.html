@@ -1,13 +1,106 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>HTML Tables and Forms</title>
-  </head>
-  <body>
-    <main>
-      <!-- Complete the Exercises HERE -->
-    </main>
-  </body>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>HTML Tables and Forms</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <main>
+    <!-- Complete the Exercises HERE -->
+    <table>
+      <thead>
+        <tr>
+          <th>Drink</th>
+          <th>Total Servings</th>
+          <th>Serving Size</th>
+          <th>Calories Per Serving</th>
+          <th>Carbs Per Serving</th>
+          <th>Sugars Per Serving</th>
+          <th>Sodium Per Serving</th>
+        </tr>
+      </thead>
+
+      <tr>
+        <th>Coca Cola</th>
+        <td>12oz/serving</td>
+        <td>one can</td>
+        <td>140 calories</td>
+        <td>39g</td>
+        <td>39g</td>
+        <td>45mg</td>
+      </tr>
+
+      <tr>
+        <th>Pepsi</th>
+        <td>12oz/serving</td>
+        <td>one can</td>
+        <td>150 calories</td>
+        <td>41g</td>
+        <td>41g</td>
+        <td>30mg</td>
+      </tr>
+
+      <tr>
+        <th>Coca Cola Zero</th>
+        <td>12oz/serving</td>
+        <td>one can</td>
+        <td>0 calories</td>
+        <td>0g</td>
+        <td>0g</td>
+        <td>40mg</td>
+      </tr>
+
+      <tr>
+        <th>Dr. Pepper</th>
+        <td>12oz/serving</td>
+        <td>one can</td>
+        <td>151 calories</td>
+        <td>38g</td>
+        <td>38g</td>
+        <td>37mg</td>
+
+      <tr>
+        <th>Mountain Dew</th>
+        <td>12oz/serving</td>
+        <td>one can</td>
+        <td>170 calories</td>
+        <td>46g</td>
+        <td>46g</td>
+        <td>60mg</td>
+      </tr>
+    </table>
+
+    <form>
+      <label for="drink">Drink</label>
+      <input type="text" name="drink" id="drink"><br>
+      <label for="servings">Total Servings</label>
+      <input type="text" name="servings" id="servings"><br>
+      <label for="servingSize">Serving Size</label>
+      <input type="text" name="servingSize" id="servingSize"><br>
+      <label for="calories">Calories Per Serving</label>
+      <input type="text" name="calories" id="calories"><br>
+      <label for="carbs">Carbs per Serving</label>
+      <input type="text" name="carbs" id="carbs"><br>
+      <label for="sugars">Sugars</label>
+      <input type="text" name="sugars" id="sugars"><br>
+      <label for="sodium">Sodium</label>
+      <input type="text" name="sodium" id="sodium"><br>
+      <button type="submit"> Submit Soda Info</button>
+    </form>
+
+
+
+
+
+
+
+
+
+  </main>
+</body>
+
 </html>
